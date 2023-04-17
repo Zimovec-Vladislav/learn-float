@@ -10,6 +10,12 @@ body {
     color: #121212;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 .container {
     width: 800px;
     margin: 20px auto;
@@ -17,8 +23,29 @@ body {
     background-color: #eee;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    width: 100%;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.main {
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
 .sidebar {
+    float: right;
     background-color: #ccc;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
 }
 
 .title {
