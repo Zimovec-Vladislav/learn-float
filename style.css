@@ -1,0 +1,36 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-size: Arial, sans-serif;
+    font-size: 1rem;
+    color: #121212;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+
+    background-color: #eee;
+}
+
+.sidebar {
+    background-color: #ccc;
+}
+
+.title {
+    margin: 0 0 1rem;
+
+    font-size: 2rem;
+    color: #121212;
+}
+
+.footer {
+    padding: 10px;
+
+    background-color: #333;
+    color: #fff;
+}
