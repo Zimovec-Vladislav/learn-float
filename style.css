@@ -55,6 +55,18 @@ body {
     color: #121212;
 }
 
+.img {
+    float: left;
+    margin-right: 10px;
+
+    display: none;
+    transition: opacity 0.2s linear;
+}
+
+.text:active .img {
+    display: block;
+}
+
 .footer {
     padding: 10px;
 
